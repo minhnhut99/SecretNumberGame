@@ -1,0 +1,27 @@
+
+
+.btn-number {
+    font-size: 30px;
+    border: 1px solid #212529;
+    background-color: #f8f9fa;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.times-item {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.times-item.active {
+    background: #dc3545;
+}
+
+.suggest {
+    background-color: #dd5a5a;
+}

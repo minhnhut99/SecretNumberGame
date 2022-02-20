@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Game Secret Number</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+		integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+		crossorigin="anonymous"/>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<div class="container mt-2">
+		<h1 class="text-center">Tìm số bí mật</h1>
+		<div class="row">
+			<div class="col-7">
+				<div class="card card-body">
+					<div id="numbers" class="d-flex flex-wrap">
+					</div>
+				</div>
+			</div>
+			<div class="col-5">
+				<div class="card card-body">
+					<div>
+						<div class="d-flex align-items-center justify-content-between mb-2">
+							<h4>Số lần dự đoán của bạn:</h4>
+							<div id="times">
+							</div>
+						</div>
+						<div id="logs">
+						</div>
+						<div id="result" class="d-flex d-none align-items-center">
+							<h4 class="me-3">Số bí mật: </h4>
+							<h2><span id="result-display" class="badge bg-success">15</span></h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12">
+				<div class="card card-body">
+					<div class="d-flex">
+						<button type="button" class="flex-grow-1 btn btn-warning btn-lg me-2" id="btn-play-again">Chơi
+							lại</button>
+						<button type="button" class="flex-grow-1 btn btn-warning btn-lg me-2" id="btn-play-suggest">Gợi
+							ý</button>
+						<button type="button" class="flex-grow-1 btn btn-warning btn-lg me-2" id="btn-play-save">Lưu
+							game</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./js/jquery-3.6.0.min.js"></script>
+	<script src="./js/bootstrap.bundle.min.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>
